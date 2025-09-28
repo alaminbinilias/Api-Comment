@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Comment</title>
+    <style>
+        #mn_dv{
+            border: 2px solid rgb(145, 145, 145);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        #mn_dv h1{
+            text-align: center;
+            color:coral;
+        }
+        #mn_dv p{
+            font-size: 1.3rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: justify;
+        }
+
+        #btn{
+            padding: 4px 7px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">All Comments</h1>
+    <button id="btn" onclick="loadcomment()">LoadComments</button>
+    <div id="contain">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
